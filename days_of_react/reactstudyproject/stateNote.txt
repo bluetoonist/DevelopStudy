@@ -1,0 +1,36 @@
+# State
+
+# component file
+class Practice extends Component {
+    render() {
+        return (
+            <article>
+
+        <h2>{this.props.title}</h2>
+        <h3>{this.props.sub}</h3>
+            </article>
+
+
+        );
+    }
+}
+
+export default Practice; 
+
+# App.js
+constructor(prorps) {
+  super(props);
+
+   instance_data : [
+        {index:1 ,title:"Label1", desc:"1"},
+        {index:2 ,title:"Label2", desc:"2"},
+        {index:3 ,title:"Label3", desc:"3"}
+      ],
+}
+...  ... ...
+<Practice 
+          title={this.state.instance_data[0].index} 
+          sub={this.state.instance_data[0].title} >
+</Practice>
+
+#  App 에서 내부적으로 사용할 수 있는 느낌
