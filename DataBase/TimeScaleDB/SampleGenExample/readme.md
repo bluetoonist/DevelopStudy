@@ -21,7 +21,7 @@ SampleData_path.csv  : /home/user1/file1.csv 와 같은 경로
   : psql -U postgres -d devices_small -c "\COPY device_info FROM SampleData_path.csv"
 ```
 
-## KeyNote
+## Featue?
 ```
 먄악 위와 같은 과정에서 데이터가 제대로 생성되어 있지 않다면 데이터베이스를 만들어줘야 함
 ```
