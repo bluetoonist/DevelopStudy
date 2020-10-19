@@ -7,7 +7,7 @@ https://docs.timescale.com/latest/tutorials/other-sample-datasets
 
 ## 샘플 데이터 생성 키노트
 ```
-샘플 데이터는 위의 링크에서 구할 수 있음, 가이드 대로 따라 가자면 아래의 절차로 샘픔 데이터를 생성할 수 있음
+샘플 데이터는 위의 링크에서 구할 수 있음, 가이드 대로 따라 가자면 아래의 절차로 샘플 데이터를 생성할 수 있음
 
 Sample Data zip File :  device_small.tar.gz
 SampleData_path.csv  : /home/user1/file1.csv 와 같은 경로
