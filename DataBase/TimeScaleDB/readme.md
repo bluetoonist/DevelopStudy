@@ -1,6 +1,6 @@
 # TIME SCALE DB 
 - Public Document
-- Sample Data Link
+- Sample Data
 - Getting Start
 - Cloud Service
 - About Hyper table 
@@ -9,7 +9,7 @@
 ```
 https://docs.timescale.com/latest/getting-started
 ```
-## Sample Data Generator
+## Sample Data
 ```
 https://docs.timescale.com/latest/tutorials/other-sample-datasets
 Location : SampleGenExample\readme.md
