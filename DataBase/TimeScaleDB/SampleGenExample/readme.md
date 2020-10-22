@@ -7,23 +7,26 @@ https://docs.timescale.com/latest/tutorials/other-sample-datasets
 
 ## 샘플 데이터 생성 키노트
 ```
-샘플 데이터는 위의 링크에서 구할 수 있음, 가이드 대로 따라 가자면 아래의 절차로 샘플 데이터를 생성할 수 있음
+-샘플 데이터는 위의 링크에서 구할 수 있음
+-가이드 대로 따라 가자면 아래의 절차로 샘플 데이터를 생성할 수 있음
 
 Sample Data zip File :  device_small.tar.gz
 SampleData_path.csv  : /home/user1/file1.csv 와 같은 경로
 
 1. 샘플 데이터 압축 해제
   : tar xvfz device_small.tar.gz
+
 2. 샘플 데이터 *.sql 초기화 
   : psql -U postgres -d device_small < devices.sql
+
 3. 샘플 데이터 불러오기
   : psql -U postgres -d devices_small -c "\COPY readings FROM SampleData_path.csv"
   : psql -U postgres -d devices_small -c "\COPY device_info FROM SampleData_path.csv"
 ```
 
-## Featue?
+## Feature?
 ```
-먄악 위와 같은 과정에서 데이터가 제대로 생성되어 있지 않다면 데이터베이스를 만들어줘야 함
+먄악 위와 같은 과정에서 데이터가 제대로 생성되어 있지 않다면 데이터베이스를 생성(create)해줘야 됨
 ```
 
 ## How to Create DataBase in psql
