@@ -21,7 +21,7 @@ DBMS를 사용하기 위해선
 ```
 <hr>
 
-# 발표자 : Peter Eisentraut ( 피터 아이젠트러시)
+# 발표자 : Peter Eisentraut ( 피터 아이젠트라우트)
 ## Waht is PosgreSQL?
 ```
 # PostgreSQL?
@@ -72,5 +72,34 @@ PostgreSQL이 지원하는 데이터 모델들
 - 사용자 정의 함수 
 - 인덱스 타입 정의 (index type)
 - 저장 엔진 (Store Engine)
+```
 
+# Who is using postgreSQL?
+``` 
+ABN AMRO - 유럽 은행
+Adyen, Braintree - 결제 프로세싱 회사
+Master Card
+GitLab
+Microsfot
+```
+
+# How do i get Started?
+```
+Cloud Servce : AWS, RDS, Heroku ...
+```
+# The Future
+```
+Lasted Release : PosgreSQL13
+-> PostgreSQL14가 2021년 발표 예정
+```
+
+# Summary
+```
+PosgreSQL (슬로건)
+-> 세계에서 가장 진보적인 오픈소스 데이터베이스 
+-> 거의 모든 사례를 위한 데이터 베이스 
+-> 
+단점..
+-> 임베디드를 위해 사용할 경우, 그 환경을 위해 설계된 것이 아닐 경우에는
+-> SQlite와 같은 임베디드 환경에 맞는 DB 사용 권장
 ```
