@@ -20,8 +20,8 @@ SampleData_path.csv  : /home/user1/file1.csv 와 같은 경로
   : psql -U postgres -d device_small < devices.sql
 
 3. 샘플 데이터 불러오기
-  : psql -U postgres -d devices_small -c "\COPY readings FROM SampleData_path.csv"
-  : psql -U postgres -d devices_small -c "\COPY device_info FROM SampleData_path.csv"
+  : psql -U postgres -d devices_small -c "\COPY readings FROM SampleData_path.csv CSV"
+  : psql -U postgres -d devices_small -c "\COPY device_info FROM SampleData_path.csv CSV"
 ```
 
 ## Feature?
