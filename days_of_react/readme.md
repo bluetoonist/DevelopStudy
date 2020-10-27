@@ -34,7 +34,6 @@ Production of Application
 --> npm run build
 : build 폴더가 생성되며 최적화 됨
 : 서비스를 올릴 때는 build 안의 파일들을 올리면 됨
-
 ```
 
 # React Structure
@@ -44,13 +43,8 @@ Production of Application
 - index.js
 - App.js
 ```
-# Syntax Keyword
+# Syntax Note
 ```
-1. props
-Example)
-<h1> {this.props.name}</h1>
-: 과 같이 컴포넌트에서 속성을 정의하게 되면 JSX를 통해 사용하게 되는 
-: Attribute 같은 개념
-
-
+1. props : ./reactstudyproject/propsNote.txt
+2. state : ./reactstudyproject/stateNote.txt
 ```
