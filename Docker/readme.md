@@ -27,16 +27,22 @@ TOPIC>> Docker 기본적으로 root권한, root가 아닌 사용자가 사용하
 - '--rm' -> 프로세스 종료시 컨테이너 자동 삭제
 ```
 
-## Docker Container Delete
+## Docker Container&Images Delete
 ```
 # 컨테이너 전부 삭제
 docker rm $(docker ps -qa)
+
+# ALL Image Delete
+docker rmi $(docker images -q) -f
 ```
 
 ## Docker Container EXEC
 ```
 # 도커 컨테이너 실행
-docker run -d -it {{docker-name}} /bin/bash
+docker run -d -it {{DOCKER_IMAGE_ID}} /bin/bash
+
+# Docker hub pull 로 받아온 container의 경우
+docker run -i -t {CONTAINER_ID}
 ```
 
 ## Container Connect
@@ -51,8 +57,11 @@ docker attach {{Container-ID}}
 sudo docker commit -p {Container-ID} {build-machine}
 ```
 
-## ALL Image Delete
+## Docker Hub commit&push
 ```
-# 도커 이미지 전부 삭제
-docker rmi $(docker images -q) -f
+# Commit
+## USAGE
+: docker commit {CONATAINER_ID} {DOCKER_HUB_ID}/{DOCKER_HUB_REPO}:{TAG_NAME}
+## Example
+: docker commit b4d68d54363a bluetoon/ctf-env-ubuntu:install-gcc
 ```
