@@ -65,3 +65,13 @@ sudo docker commit -p {Container-ID} {build-machine}
 ## Example
 : docker commit b4d68d54363a bluetoon/ctf-env-ubuntu:install-gcc
 ```
+
+## Error shooting
+```
+[Error Message]
+docker: Error response from daemon: pull access denied for {CONTAINER_ID}, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+
+[Solution]
+docker login
+```
