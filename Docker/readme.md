@@ -62,7 +62,7 @@ sudo docker commit -p {Container-ID} {build-machine}
 # Commit
 ## USAGE
 : docker commit {CONATAINER_ID} {DOCKER_HUB_ID}/{DOCKER_HUB_REPO}:{TAG_NAME}
-## Example
+## Example (My CASE)
 : docker commit b4d68d54363a bluetoon/ctf-env-ubuntu:install-gcc
 ```
 
@@ -74,4 +74,5 @@ See 'docker run --help'.
 
 [Solution]
 docker login
+docker exec -it {CONTAINER_ID} /bin/bash
 ```
