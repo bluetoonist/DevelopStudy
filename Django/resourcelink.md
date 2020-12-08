@@ -5,4 +5,7 @@ https://jisun-rea.tistory.com/entry/Django-Authentication-%ED%9A%8C%EC%9B%90%EA%
 
 [DJANGO] get & post 처리
 https://velog.io/@magnoliarfsit/ReDjango-3.-GET-POST-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EB%B0%8F-api-%EC%84%A4%EA%B3%84
+
+[DJANGO] File Upload
+https://simpleisbetterthancomplex.com/tutorial/2016/08/01/how-to-upload-files-with-django.html
 ```
