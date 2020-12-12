@@ -8,4 +8,7 @@ https://velog.io/@magnoliarfsit/ReDjango-3.-GET-POST-%EB%A9%94%EC%86%8C%EB%93%9C
 
 [DJANGO] File Upload
 https://simpleisbetterthancomplex.com/tutorial/2016/08/01/how-to-upload-files-with-django.html
+
+[DJANGO] Relationship Model
+https://nachwon.github.io/django-relationship/
 ```
