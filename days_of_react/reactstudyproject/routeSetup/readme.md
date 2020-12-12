@@ -27,7 +27,7 @@ export default function Root() {
 export {default as Home} from "./Home";
 export {default as About} from "./About";
 
-[App.js]
+[shared/App.js]
 import React from "react";
 import {Route} from "react-router-dom";
 import {Home,About} from "../pages";
