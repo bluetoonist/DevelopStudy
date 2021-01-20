@@ -18,6 +18,10 @@ OS : Ubuntu 20.04
 
 
 ### Cheet Sheet
+```
+# docker container start
+1. sudo docker run -d -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234 --name root {CONTAINER_ID} /bin/bash
+```
 
 
 ### Support Link
