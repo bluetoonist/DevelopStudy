@@ -17,10 +17,17 @@ OS : Ubuntu 20.04
    - https://kssong.tistory.com/2
 
 
-### Cheet Sheet
+### Quock Start
 ```
-# docker container start
 1. sudo docker run -d -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234 --name root {CONTAINER_ID} /bin/bash
+
+2. mysql -u root -p
+
+3. CREATE USER 'root'@'%' IDENTIFIED BY '1234';
+
+4. GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';'
+
+5. flush privileges;
 ```
 
 
