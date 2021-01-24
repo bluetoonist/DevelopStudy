@@ -1,7 +1,7 @@
 
 # MySQL Note
 
-### test env 
+### TEST ENV
 ```
 OS : Ubuntu 20.04
 ```
