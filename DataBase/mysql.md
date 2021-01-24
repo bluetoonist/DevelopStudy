@@ -25,17 +25,20 @@ $ apt install wget
 $ apt install unzip
 ```
 
-### Quick Start
+### MYSQL USER:PASSWORD SETTING
 ```
-1. sudo docker run -d -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234 --name root {CONTAINER_ID} /bin/bash
+sudo docker run -d -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234 --name root {CONTAINER_ID} /bin/bash
+```
 
-2. mysql -u root -p
+### EXTERNAL ACCESS SETTING
+```
+1. mysql -u root -p
 
-3. CREATE USER 'root'@'%' IDENTIFIED BY '1234';
+2. CREATE USER 'root'@'%' IDENTIFIED BY '1234';
 
-4. GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
+3. GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
 
-5. flush privileges;
+4. flush privileges;
 ```
 
 ### Support Link
