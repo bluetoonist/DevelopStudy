@@ -2,6 +2,7 @@
 <h3>TOC</h3>
 &nbsp;&nbsp;&nbsp; 1. Installing <br>
 &nbsp;&nbsp;&nbsp; 2. Getting Start<br>
+&nbsp;&nbsp;&nbsp; 3. Tips & Trick<br>
 
 ## Installing
 ```
@@ -27,7 +28,7 @@ TOPIC>> Docker 기본적으로 root권한, root가 아닌 사용자가 사용하
 - '--rm' -> 프로세스 종료시 컨테이너 자동 삭제
 ```
 
-## Docker Container&Images Delete
+#### Docker Container&Images Delete
 ```
 # 컨테이너 전부 삭제
 docker rm $(docker ps -qa)
@@ -36,7 +37,7 @@ docker rm $(docker ps -qa)
 docker rmi $(docker images -q) -f
 ```
 
-## Docker Container EXEC
+#### Docker Container EXEC
 ```
 # 도커 컨테이너 실행
 docker run -d -it {{DOCKER_IMAGE_ID}} /bin/bash
@@ -45,19 +46,19 @@ docker run -d -it {{DOCKER_IMAGE_ID}} /bin/bash
 docker run -i -t {CONTAINER_ID}
 ```
 
-## Container Connect
+#### Container Connect
 ```
 # 도커 컨테이너 연결
 docker attach {{Container-ID}}
 ```
 
-## Container Save
+#### Container Save
 ```
 # 도커 컨테이너 백업
 sudo docker commit -p {Container-ID} {build-machine}
 ```
 
-## Docker Hub commit&push
+#### Docker Hub commit&push
 ```
 # Commit
 ## USAGE
@@ -66,7 +67,7 @@ sudo docker commit -p {Container-ID} {build-machine}
 : docker commit b4d68d54363a bluetoon/ctf-env-ubuntu:install-gcc
 ```
 
-## Error shooting
+#### Error shooting
 ```
 [Error Message]
 docker: Error response from daemon: pull access denied for {CONTAINER_ID}, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
@@ -75,4 +76,12 @@ See 'docker run --help'.
 [Solution]
 docker login
 docker exec -it {CONTAINER_ID} /bin/bash
+```
+
+## Tips & Trick
+
+#### Docker Container 나오기
+```
+exit 로 나오게 될 경우 container가 지워짐
+CTRL + P,Q 로 나오게 되면 지워지지 않고 빠져나옴
 ```
