@@ -27,7 +27,7 @@ $ apt install unzip
 
 ### MYSQL USER:PASSWORD SETTING
 ```
-sudo docker run -d -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234 --name root {CONTAINER_ID} /bin/bash
+sudo docker run -d -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234 --name {HOSTNAME} {IMAGE_ID} /bin/bash
 ```
 
 ### EXTERNAL ACCESS SETTING
