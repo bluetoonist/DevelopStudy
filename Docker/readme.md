@@ -50,6 +50,9 @@ docker run -i -t {CONTAINER_ID}
 ```
 # 도커 컨테이너 연결
 docker attach {{Container-ID}}
+
+# 외부에서 도커 컨테이너에 명령어 실행하기 (링크 참조)
+https://eyeballs.tistory.com/49
 ```
 
 #### Container Save
