@@ -33,3 +33,8 @@ services:
 
 #### Tips
  - `command`의 끝에 보면 `tail -f /dev/null`이 들어가 있는 게 보이는게 이 명령을 포함해 실행해 주지 않으면 docker-compose로 실행시킨 컨테이너는 금방 죽음
+
+#### Reference
+ - https://www.44bits.io/ko/post/almost-perfect-development-environment-with-docker-and-docker-compose#volumes
+ - https://fenderist.tistory.com/408
+ - http://raccoonyy.github.io/docker-usages-for-dev-environment-setup/
