@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7765d9f9-abeb-4436-8c42-d0349d4e121e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/Case1/datetimehelper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/Case1/datetimehelperExt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/Case1/datetimehelpertest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/Case2/notepad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/Case2/textsearcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonNote/late_binding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DevelopStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DevelopStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonNote/DataStructure/poc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonNote/WorNote.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/Case2/test_textsearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/doctests/factorial_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/Case2/notepad.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +34,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Source" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Note\DevelopStudy\PythonNote\Architecture\chapter03\Case1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.notepad">
+  <component name="RunManager" selected="Python.factorial_example">
     <configuration name="datetimehelperExt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DevelopStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,6 +85,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="factorial_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DevelopStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonNote/Architecture/chapter03/doctests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonNote/Architecture/chapter03/doctests/factorial_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="late_binding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DevelopStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="notepad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_textsearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DevelopStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,28 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonNote/Architecture/chapter03/Case2/notepad.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="poc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DevelopStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonNote/DataStructure" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonNote/DataStructure/poc.py" />
+      <option name="SCRIPT_NAME" value="D:\Note\DevelopStudy\PythonNote\Architecture\chapter03\Case2\test_textsearch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.notepad" />
+        <item itemvalue="Python.factorial_example" />
+        <item itemvalue="Python.test_textsearch" />
         <item itemvalue="Python.datetimehelperExt" />
         <item itemvalue="Python.datetimehelpertest" />
         <item itemvalue="Python.late_binding" />
-        <item itemvalue="Python.poc" />
       </list>
     </recent_temporary>
   </component>
@@ -180,29 +172,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="703" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1615127621326">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="703" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615127621326" />
     <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1615125734477">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615125734477" />
-    <state width="1898" height="182" key="GridCell.Tab.0.bottom" timestamp="1615127213822">
+    <state width="1898" height="326" key="GridCell.Tab.0.bottom" timestamp="1615129014152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615127213822" />
+    <state width="1898" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615129014152" />
     <state width="1402" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614867560805" />
-    <state width="1898" height="182" key="GridCell.Tab.0.center" timestamp="1615127213821">
+    <state width="1898" height="326" key="GridCell.Tab.0.center" timestamp="1615129014152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="182" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615127213821" />
+    <state width="1898" height="326" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615129014152" />
     <state width="1402" height="255" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614867560805" />
-    <state width="1898" height="182" key="GridCell.Tab.0.left" timestamp="1615127213821">
+    <state width="1898" height="326" key="GridCell.Tab.0.left" timestamp="1615129014152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="182" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615127213821" />
+    <state width="1898" height="326" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615129014152" />
     <state width="1402" height="255" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614867560805" />
-    <state width="1898" height="182" key="GridCell.Tab.0.right" timestamp="1615127213822">
+    <state width="1898" height="326" key="GridCell.Tab.0.right" timestamp="1615129014152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="182" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615127213822" />
+    <state width="1898" height="326" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615129014152" />
     <state width="1402" height="255" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614867560805" />
     <state width="1898" height="355" key="GridCell.Tab.1.bottom" timestamp="1614945551500">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -220,9 +216,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1898" height="355" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1614945551500" />
-    <state x="461" y="184" key="SettingsEditor" timestamp="1615120552795">
+    <state x="461" y="184" key="SettingsEditor" timestamp="1615127410340">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615120552795" />
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615127410340" />
   </component>
 </project>
