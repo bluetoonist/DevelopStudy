@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7765d9f9-abeb-4436-8c42-d0349d4e121e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/Case2/test_textsearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/doctests/factorial_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonNote/Architecture/chapter04/primes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonNote/Architecture/chapter03/Case2/notepad.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
       <recent name="D:\Note\DevelopStudy\PythonNote\Architecture\chapter03\Case1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.factorial_example">
+  <component name="RunManager" selected="Python.primes">
     <configuration name="datetimehelperExt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DevelopStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="late_binding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="primes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DevelopStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonNote" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonNote/Architecture/chapter04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonNote/late_binding.py" />
+      <option name="SCRIPT_NAME" value="D:\Note\DevelopStudy\PythonNote\Architecture\chapter04\primes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.primes" />
         <item itemvalue="Python.factorial_example" />
         <item itemvalue="Python.test_textsearch" />
         <item itemvalue="Python.datetimehelperExt" />
         <item itemvalue="Python.datetimehelpertest" />
-        <item itemvalue="Python.late_binding" />
       </list>
     </recent_temporary>
   </component>
@@ -180,42 +178,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615125734477" />
-    <state width="1898" height="326" key="GridCell.Tab.0.bottom" timestamp="1615129014152">
+    <state width="1898" height="313" key="GridCell.Tab.0.bottom" timestamp="1615295457060">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615129014152" />
+    <state width="1898" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615295457060" />
     <state width="1402" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614867560805" />
-    <state width="1898" height="326" key="GridCell.Tab.0.center" timestamp="1615129014152">
+    <state width="1898" height="313" key="GridCell.Tab.0.center" timestamp="1615295457060">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="326" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615129014152" />
+    <state width="1898" height="313" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615295457060" />
     <state width="1402" height="255" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614867560805" />
-    <state width="1898" height="326" key="GridCell.Tab.0.left" timestamp="1615129014152">
+    <state width="1898" height="313" key="GridCell.Tab.0.left" timestamp="1615295457060">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="326" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615129014152" />
+    <state width="1898" height="313" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615295457060" />
     <state width="1402" height="255" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614867560805" />
-    <state width="1898" height="326" key="GridCell.Tab.0.right" timestamp="1615129014152">
+    <state width="1898" height="313" key="GridCell.Tab.0.right" timestamp="1615295457060">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="326" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615129014152" />
+    <state width="1898" height="313" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615295457060" />
     <state width="1402" height="255" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1614867560805" />
-    <state width="1898" height="355" key="GridCell.Tab.1.bottom" timestamp="1614945551500">
+    <state width="1898" height="355" key="GridCell.Tab.1.bottom" timestamp="1615295420637">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1614945551500" />
-    <state width="1898" height="355" key="GridCell.Tab.1.center" timestamp="1614945551500">
+    <state width="1898" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615295420637" />
+    <state width="1898" height="355" key="GridCell.Tab.1.center" timestamp="1615295420637">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="355" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1614945551500" />
-    <state width="1898" height="355" key="GridCell.Tab.1.left" timestamp="1614945551500">
+    <state width="1898" height="355" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615295420637" />
+    <state width="1898" height="355" key="GridCell.Tab.1.left" timestamp="1615295420637">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="355" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1614945551500" />
-    <state width="1898" height="355" key="GridCell.Tab.1.right" timestamp="1614945551500">
+    <state width="1898" height="355" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615295420637" />
+    <state width="1898" height="355" key="GridCell.Tab.1.right" timestamp="1615295420637">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1898" height="355" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1614945551500" />
+    <state width="1898" height="355" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615295420637" />
     <state x="461" y="184" key="SettingsEditor" timestamp="1615127410340">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
