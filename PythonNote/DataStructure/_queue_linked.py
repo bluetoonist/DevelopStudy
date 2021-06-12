@@ -44,7 +44,6 @@ class LinkedQueue(object):
         while node:
             print(node.value, end=" ")
             node = node.pointer
-        print()
 
 if __name__ == '__main__':
     queue = LinkedQueue()
