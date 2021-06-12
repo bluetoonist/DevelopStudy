@@ -9,6 +9,8 @@ OS : Ubuntu 20.04
 ### Quick Start Support Link
  - 1.Docker && Docker MySQL Install 
    - http://jmlim.github.io/docker/2019/07/30/docker-mysql-setup/
+   - 2021.06.12(Sat)
+     - M1 Mac:  docker pull --platform linux/x86_64 mysql 
 
  - 2.Sample SQL File
    - https://www.mysqltutorial.org/mysql-sample-database.aspx/
